@@ -46,10 +46,6 @@ const Skills = () => {
           >
             TypeScript
           </a>
-          <p>
-            Soon enough I will learn Backend Development to become a Fullstack
-            Developer.
-          </p>
         </p>
 
         <p className="app__skills-title_content">
