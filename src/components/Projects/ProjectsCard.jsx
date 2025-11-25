@@ -46,7 +46,7 @@ const ProjectsCard = ({ projects }) => {
           </Button>
         </a>
         <a href={projects.code} target="blank">
-          <Button
+          {/* <Button
             variant="contained"
             disableElevation
             disableRipple
@@ -54,7 +54,7 @@ const ProjectsCard = ({ projects }) => {
             color={`${projects.code === null ? "warning" : "primary"}`}
           >
             {projects.code === null ? "Repository is private" : "View Code"}
-          </Button>
+          </Button> */}
         </a>
       </CardActions>
     </Card>

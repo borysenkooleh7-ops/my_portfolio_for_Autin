@@ -26,7 +26,7 @@ const About = () => {
             Next.js, React.js, TypeScript, and Tailwind CSS are my main stack.
             Most of my skills are heavily focused on different front-end
             technologies */}
-            {/* Hello! My name is Erys and I am a front end developer with a passion
+            {/* Hello! My name is Austin and I am a front end developer with a passion
             for creating visually stunning and intuitive websites. With a strong
             foundation in HTML, CSS, and JavaScript, I am able to bring designs
             to life and create user experiences that are both functional and
@@ -40,7 +40,7 @@ const About = () => {
             expand my skillset. Thank you for considering me for your project. I
             am excited to bring my skills and expertise to your team and create
             something truly unique and impactful. */}
-            Hello! My name is Erys and I am a front end developer with a passion
+            Hello! My name is Austin and I am a front end developer with a passion
             for creating visually stunning and intuitive websites. With a strong
             foundation in HTML, CSS, and JavaScript, I am able to bring designs
             to life and create user experiences that are both functional and
