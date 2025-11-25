@@ -1,6 +1,6 @@
 // PROJECTS
 import alphapaw from "../../assets/images/projects/Website Advertisement with Dogs and Holiday.png";
-import Systems from "../../assets/images/projects/system_ai.png.jpg";
+import Systems from "../../assets/images/projects/system_ai.png";
 import Countries from "../../assets/images/projects/countries.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
