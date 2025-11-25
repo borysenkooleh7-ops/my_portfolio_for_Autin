@@ -28,16 +28,16 @@ const Hero = () => {
           />
           <TypeAnimation
             cursor={false}
-            sequence={[2000, "Austin Kniga-Barlett"]}
-            wrapper="h1"
+            sequence={[2000, "Austin Kniga Barlett"]}
+            wrapper="h2"
             repeat={1}
             className="app__hero-container_text-name"
           />
 
           <TypeAnimation
             cursor={false}
-            sequence={[3000, "I enjoy creating stuffs."]}
-            wrapper="h2"
+            sequence={[3000, "I enjoy creating full-stack and AI-driven projects that bring ideas to life."]}
+            wrapper="h3"
             repeat={1}
             className="app__hero-container_text-title"
           />
