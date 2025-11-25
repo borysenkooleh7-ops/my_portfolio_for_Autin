@@ -36,8 +36,8 @@ const Hero = () => {
 
           <TypeAnimation
             cursor={false}
-            sequence={[3000, "I enjoy creating full-stack and AI-driven projects that bring ideas to life."]}
-            wrapper="h3"
+            sequence={[3500, "I enjoy creating full-stack and AI-driven projects that bring ideas to life."]}
+            wrapper="h4"
             repeat={1}
             className="app__hero-container_text-title"
           />
