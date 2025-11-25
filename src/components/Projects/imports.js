@@ -1,5 +1,5 @@
 // PROJECTS
-import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
+import alphapaw from "../../assets/images/projects/Website Advertisement with Dogs and Holiday.png";
 import Systems from "../../assets/images/projects/system_ai.png.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
@@ -9,7 +9,7 @@ import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import Hulu from "../../assets/images/projects/hulu.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
 import Realtor from "../../assets/images/projects/realtor.jpg";
-import Royals from "../../assets/images/projects/royals.jpg";
+import linguana from "../../assets/images/projects/linguana.png";
 import Toyota from "../../assets/images/projects/toyota.jpg";
 
 // CERTICIFICATES
@@ -92,10 +92,10 @@ const ProjectDetails = [
     code: "https://github.com/AustinCode7/cocktails",
   },
   {
-    image: AdviceGenerator,
-    title: "Advice generator App",
-    text: "An Advice Generator App that displays random advice using the Advice Slip API. Built with HTML, CSS, SASS, and JavaScript, and structured for future AI features like smarter recommendations and personalized advice suggestions.",
-    site: "https://Austincode7.github.io/advice-generator-app/",
+    image: alphapaw,
+    title: "Real pets. Real reviews. Real life.",
+    text: "At Alpha Paw, pets are family—and family deserves the best. We create high-quality, honest products designed by pet parents, for pet parents, helping pups live happier, healthier, and longer lives.",
+    site: "https://www.alphapaw.com/",
     code: "https://github.com/AustinCode7/advice-generator-app",
   },
   {
@@ -106,19 +106,12 @@ const ProjectDetails = [
     code: "https://github.com/AustinCode7/edie-landing-page",
   },
   {
-    image: Royals,
-    title: "Royals Landing Page",
-    text: "A JavaScript landing page leveraging the Intersection Observer API to handle scroll-triggered effects and UI transitions, designed with an AI-ready architecture.",
-    site: "https://Austincode7.github.io/royals-landing-page/",
-    code: "https://github.com/AustinCode7/royals-landing-page",
+    image: linguana,
+    title: "Expand Your YouTube Global Reach and Revenue",
+    text: "Expand your YouTube reach and revenue worldwide. We localize, optimize, and monetize your channels in new languages—with zero cost, zero effort, and zero risk.",
+    site: "https://www.linguana.com/",
+    code: "https://github.com/AustinCode7/linguana-landing-page",
   },
-  // {
-  //   image: FrontendDocumentation,
-  //   title: "Frontend Documentation",
-  //   text: "Personal blog Technical Documentation Page",
-  //   site: "https://Austincode7.github.io/frontend-documentation/",
-  //   code: "https://github.com/AustinCode7/frontend-documentation",
-  // },
   {
     image: GithubGeneratorApp,
     title: "Github Generator App",
