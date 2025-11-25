@@ -2,7 +2,7 @@
 import alphapaw from "../../assets/images/projects/Website Advertisement with Dogs and Holiday.png";
 import Systems from "../../assets/images/projects/system_ai.png";
 import Countries from "../../assets/images/projects/countries.jpg";
-import EasyBank from "../../assets/images/projects/easybank.jpg";
+import rayzeapp from "../../assets/images/projects/rayzeapp.png";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
 import auroramedical from "../../assets/images/projects/auroramedical.png";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
@@ -10,7 +10,7 @@ import Hulu from "../../assets/images/projects/hulu.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
 import Realtor from "../../assets/images/projects/realtor.jpg";
 import linguana from "../../assets/images/projects/linguana.png";
-import Toyota from "../../assets/images/projects/toyota.jpg";
+import dramaplatform from "../../assets/images/projects/dramaplatform.png";
 
 // CERTICIFICATES
 import CSScertificate from "../../assets/images/certificate/CSS.jpg";
@@ -126,18 +126,18 @@ const ProjectDetails = [
     code: "https://github.com/AustinCode7/gpt3",
   },
   {
-    image: EasyBank,
-    title: "EasyBank landing page",
-    text: "Frontend Mentor challenge built with HTML, CSS, SASS, and JavaScript. Features responsive design with clean UI patterns. Structured for full-stack expansion and AI integration.",
-    site: "https://Austincode7.github.io/easybank-landing-page/",
-    code: "https://github.com/AustinCode7/easybank-landing-page",
+    image: rayzeapp,
+    title: "Find your next",
+    text: "As a Full Stack and AI Engineer, I build a mobile-first platform that helps people find volunteer events and community opportunities, enabling meaningful activism, nonprofit growth, and corporate giving.",
+    site: "https://www.rayzeapp.com/",
+    code: "https://github.com/AustinCode7/rayzeapp-landing-page",
   },
   {
-    image: Toyota,
-    title: "Toyota",
-    text: "Toyota UI design featuring modern layout and component-based architecture. Built with responsive design principles and clean code structure. Ready for full-stack AI enhancements.",
-    site: "https://Austincode7.github.io/Toyota/",
-    code: "https://github.com/AustinCode7/Toyota",
+    image: dramaplatform,
+    title: "dramaplatform",
+    text: "As a Full Stack and AI Engineer, I’ve been improving this movie-style video hub platform by upgrading UI elements and optimizing backend logic to deliver a faster and smoother viewing experience.",
+    site: "https://dramaplatform.netlify.app/",
+    code: "https://github.com/AustinCode7/dramaplatform",
   },
 ];
 
