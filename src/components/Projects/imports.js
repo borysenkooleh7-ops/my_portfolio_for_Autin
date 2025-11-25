@@ -1,6 +1,6 @@
 // PROJECTS
 import AdviceGenerator from "../../assets/images/projects/advice-generator.jpg";
-import Cocktails from "../../assets/images/projects/cocktails.jpg";
+import Systems from "../../assets/images/projects/system_ai.png.jpg";
 import Countries from "../../assets/images/projects/countries.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
@@ -85,10 +85,10 @@ const ProjectDetails = [
     code: "https://github.com/AustinCode7/countries-api",
   },
   {
-    image: Cocktails,
+    image: Systems,
     title: "Cocktails app",
-    text: "A random cocktails app built with ReactJS, fetching live drink data from an external API. Uses Material UI, Axios, and the Context API, and is structured for future AI features like smart drink suggestions and flavor-based recommendations.",
-    site: "https://cocktails-omega.vercel.app/",
+    text: "System 7 leverages AI to revolutionize marketing and sales workflows with intelligent, data-powered systems.",
+    site: "https://www.system7.ai/",
     code: "https://github.com/AustinCode7/cocktails",
   },
   {
