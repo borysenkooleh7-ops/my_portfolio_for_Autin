@@ -4,7 +4,7 @@ import Systems from "../../assets/images/projects/system_ai.png";
 import Countries from "../../assets/images/projects/countries.jpg";
 import EasyBank from "../../assets/images/projects/easybank.jpg";
 import EdieHomepage from "../../assets/images/projects/edie-page.jpg";
-import GithubGeneratorApp from "../../assets/images/projects/github-generator-app.jpg";
+import auroramedical from "../../assets/images/projects/auroramedical.png";
 import GPT3 from "../../assets/images/projects/gpt3.jpg";
 import Hulu from "../../assets/images/projects/hulu.jpg";
 import MovieStar from "../../assets/images/projects/movie-star.png";
@@ -112,10 +112,10 @@ const ProjectDetails = [
     code: "https://github.com/AustinCode7/linguana-landing-page",
   },
   {
-    image: GithubGeneratorApp,
-    title: "Github Generator App",
-    text: "GitHub user search app using GitHub API for profile and stats retrieval. Built with clean UI and scalable full-stack architecture. Ready for AI-powered search and profile insights.",
-    site: "https://Austincode7.github.io/github-generator-app/",
+    image: auroramedical,
+    title: "auroramedical App",
+    text: "As a full-stack developer, I contribute to Aurora Medical’s mission as a leading, science-driven provider of medical cannabis across its brands: Aurora, CanniMed, MedReleaf, and WMMC.",
+    site: "https://www.auroramedical.com",
     code: "https://github.com/AustinCode7/github-generator-app",
   },
   {
