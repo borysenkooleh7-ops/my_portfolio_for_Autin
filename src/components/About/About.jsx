@@ -19,46 +19,18 @@ const About = () => {
         <div className="app__about-container_text">
           <h2>About</h2>
           <p>
-            {/* I am a self-taught developer. I learn by doing things. As a
-            Front-End Developer, I translate UI/UX designs into successful,
-            responsive websites that are fast, easy to use, and built with best
-            practices. The main area of my expertise is front-end development.
-            Next.js, React.js, TypeScript, and Tailwind CSS are my main stack.
-            Most of my skills are heavily focused on different front-end
-            technologies */}
-            {/* Hello! My name is Austin and I am a front end developer with a passion
-            for creating visually stunning and intuitive websites. With a strong
-            foundation in HTML, CSS, and JavaScript, I am able to bring designs
-            to life and create user experiences that are both functional and
-            enjoyable. In my previous roles, I have worked on a variety of
-            projects ranging from small business websites to large e-commerce
-            platforms. I have a keen eye for detail and am always seeking ways
-            to improve the performance and functionality of a website. Outside
-            of work, I enjoy staying up-to-date on the latest web development
-            trends and techniques through online learning and attending industry
-            events. I am always looking for new challenges and opportunities to
-            expand my skillset. Thank you for considering me for your project. I
-            am excited to bring my skills and expertise to your team and create
-            something truly unique and impactful. */}
-            Hello! My name is Austin and I am a front end developer with a passion
-            for creating visually stunning and intuitive websites. With a strong
-            foundation in HTML, CSS, and JavaScript, I am able to bring designs
-            to life and create user experiences that are both functional and
-            enjoyable. I have a keen eye for detail and am always seeking ways
-            to improve the performance and functionality of a website. Outside
-            of work, I enjoy staying up-to-date on the latest web development
-            trends and techniques through online learning. I am always looking
-            for new challenges and opportunities to expand my skillset.
+            Hello! My name is Erys and I am a university student specializing in full-stack development and artificial intelligence.
+            I focus on building complete, high-quality solutions—from intuitive user interfaces to scalable backend systems and intelligent AI-powered features.
           </p>
 
           <p>
-            I spend my time learning on technology especially Frontend
-            Development I consistently learn the concepts and tools behind and
-            building projects around it.
+            I’m continuously expanding my knowledge in web technologies, APIs, databases, cloud tools, and machine learning. Outside of school,
+            I spend most of my time building personal projects and improving my main stack.
+            I’m always looking for opportunities to learn, innovate, and challenge myself as a developer.
           </p>
 
           <p>
-            I'm currently work as a Front End Developer at{" "}
+            Right now, I am focused on mastering my main stack and expanding my capabilities as a full-stack developer and AI engineer. at{" "}
             <a
               href="https://nexplay.gg/"
               target="_blank"
