@@ -25,7 +25,7 @@ const Projects = () => {
       data-aos-easing="ease"
       data-aos-once="true"
     >
-      <div className="app__projects-container">
+      {/* <div className="app__projects-container">
         <h2>Projects</h2>
         <div className="app__projects-container_projects">
           {ProjectDetails.map((projects, index) => (
@@ -40,7 +40,7 @@ const Projects = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };
