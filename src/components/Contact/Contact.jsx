@@ -28,20 +28,20 @@ const Contact = () => {
             specified social medias below.
           </p>
           <ul className="app__contact-container_contacts-links">
-            <a href="https://web.facebook.com/Austin.Kniga Barlett/" target="blank">
+            <a href="https://web.facebook.com/Austin.Kniga Bartlett/" target="blank">
               <img src={Facebook} alt="" />
-              Austin Kniga Barlett
+              Austin Kniga Bartlett
             </a>
-            <a href="https://www.instagram.com/_AustinKniga Barlett/" target="blank">
+            <a href="https://www.instagram.com/_AustinKniga Bartlett/" target="blank">
               <img src={Instagram} alt="" />
-              _AustinKniga Barlett
+              _AustinKniga Bartlett
             </a>
             <a
-              href="https://www.linkedin.com/in/Austin-Kniga Barlett-280190230/"
+              href="https://www.linkedin.com/in/Austin-Kniga Bartlett-280190230/"
               target="blank"
             >
               <img src={LinkedIn} alt="" />
-              Austin Kniga Barlett
+              Austin Kniga Bartlett
             </a>
           </ul>
         </div>

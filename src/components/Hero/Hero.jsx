@@ -28,7 +28,7 @@ const Hero = () => {
           />
           <TypeAnimation
             cursor={false}
-            sequence={[2000, "Austin Kniga Barlett"]}
+            sequence={[2000, "Austin Kniga Bartlett"]}
             wrapper="h2"
             repeat={1}
             className="app__hero-container_text-name"

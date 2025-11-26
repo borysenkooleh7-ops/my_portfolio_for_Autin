@@ -19,7 +19,7 @@ const About = () => {
         <div className="app__about-container_text">
           <h2>About</h2>
           <p>
-            Hello! My name is Austin Kniga Barlett and I am a university student specializing in full-stack development and artificial intelligence.
+            Hello! My name is Austin Kniga Bartlett and I am a university student specializing in full-stack development and artificial intelligence.
             I focus on building complete, high-quality solutions—from intuitive user interfaces to scalable backend systems and intelligent AI-powered features.
           </p>
 
