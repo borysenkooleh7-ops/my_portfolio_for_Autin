@@ -1,9 +1,6 @@
 import CloseIcon from "@mui/icons-material/Close";
 import MenuIcon from "@mui/icons-material/Menu";
 import React, { useEffect, useRef, useState } from "react";
-import Facebook from "../../assets/images/socials/facebook.png";
-import Instagram from "../../assets/images/socials/instagram.png";
-import LinkedIn from "../../assets/images/socials/linkedin.png";
 import "./Navbar.scss";
 
 const Menu = () => {
@@ -82,20 +79,6 @@ const Navbar = () => {
           }
         >
           <Menu />
-          <div className="app__navbar-container_mobilelinks-socials">
-            <a href="https://web.facebook.com/Austin.Kniga Bartlett/" target="blank">
-              <img src={Facebook} alt="Facebook" />
-            </a>
-            <a href="https://www.instagram.com/_AustinKniga Bartlett/" target="blank">
-              <img src={Instagram} alt="Instagram" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/Austin-Kniga Bartlett-280190230/"
-              target="blank"
-            >
-              <img src={LinkedIn} alt="LinkedIn" />
-            </a>
-          </div>
         </ul>
       </div>
     </nav>

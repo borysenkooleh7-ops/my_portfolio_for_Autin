@@ -1,11 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import Connection from "../../assets/images/connections.svg";
-import Facebook from "../../assets/images/socials/facebook.png";
-import Instagram from "../../assets/images/socials/instagram.png";
-import LinkedIn from "../../assets/images/socials/linkedin.png";
 import "./Contact.scss";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    subject: "",
+    message: "",
+  });
+
+  const handleChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const { name, email, subject, message } = formData;
+    const mailtoLink = `mailto:austinkb02@gmail.com?subject=${encodeURIComponent(
+      subject
+    )}&body=${encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+    )}`;
+    window.location.href = mailtoLink;
+  };
+
   return (
     <section
       className="app__contact"
@@ -24,29 +46,49 @@ const Contact = () => {
           </p>
           <h2>Let's create progress together</h2>
           <p>
-            For all inquiries, you can contact and message me on any of the
-            specified social medias below.
+            Have a project in mind or want to collaborate? Send me a message and
+            I'll get back to you as soon as possible.
           </p>
-          <ul className="app__contact-container_contacts-links">
-            <a href="https://web.facebook.com/Austin.Kniga Bartlett/" target="blank">
-              <img src={Facebook} alt="" />
-              Austin Kniga Bartlett
-            </a>
-            <a href="https://www.instagram.com/_AustinKniga Bartlett/" target="blank">
-              <img src={Instagram} alt="" />
-              _AustinKniga Bartlett
-            </a>
-            <a
-              href="https://www.linkedin.com/in/Austin-Kniga Bartlett-280190230/"
-              target="blank"
-            >
-              <img src={LinkedIn} alt="" />
-              Austin Kniga Bartlett
-            </a>
-          </ul>
+          <form className="app__contact-form" onSubmit={handleSubmit}>
+            <div className="app__contact-form_row">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={formData.name}
+                onChange={handleChange}
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                value={formData.email}
+                onChange={handleChange}
+                required
+              />
+            </div>
+            <input
+              type="text"
+              name="subject"
+              placeholder="Subject"
+              value={formData.subject}
+              onChange={handleChange}
+              required
+            />
+            <textarea
+              name="message"
+              placeholder="Your Message"
+              rows="5"
+              value={formData.message}
+              onChange={handleChange}
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
         </div>
         <div className="app__contact-container_image">
-          <img src={Connection} alt="Cennections" />
+          <img src={Connection} alt="Connections" />
         </div>
       </div>
     </section>
